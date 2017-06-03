@@ -1,0 +1,196 @@
+on command "/op":
+	if player has permission "allow.op":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/minecraft:op":
+	if player has permission "allow.m.op":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."		
+		
+on command "/bukkit:op":
+	if player has permission "allow.b.op":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/deop":
+	if player has permission "allow.deop":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/minecraft:deop":
+	if player has permission "allow.m.deop":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:deop":
+	if player has permission "allow.b.deop":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/plugins":
+	if player has permission "allow.plugins":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+
+on command "/?":
+	if player has permission "allow.?":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/help":
+	if player has permission "allow.help":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/ver":
+	if player has permission "allow.ver":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/version":
+	if player has permission "allow.version":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/about":
+	if player has permission "allow.about":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:pl":
+	if player has permission "allow.b.pl":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:plugins":
+	if player has permission "allow.b.plugins":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:?":
+	if player has permission "allow.b.?":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:help":
+	if player has permission "allow.b.help":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:ver":
+	if player has permission "allow.b.ver":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:version":
+	if player has permission "allow.b.version":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/minecraft:help":
+	if player has permission "allow.m.help":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/icanhasbukkit":
+	if player has permission "allow.icanhasbukkit":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+
+on command "/me":
+	if player has permission "allow.me":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/minecraft:me":
+	if player has permission "allow.b.me":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/reload":
+	if player has permission "allow.reload":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:reload":
+	if player has permission "allow.b.reload":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/timings":
+	if player has permission "allow.timings":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/bukkit:timings":
+	if player has permission "allow.b.timings":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/stop":
+	if player has permission "allow.stop":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+		
+on command "/minecraft:stop":
+	if player has permission "allow.m.stop":
+		stop
+	else:
+		cancel the event
+		message "&9&lPermissions &8&l> &cYou do not have permission for this command."
+	
